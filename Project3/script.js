@@ -5,7 +5,6 @@ function showWarning(msg) {
 function showInfo(json) {
   showWarning("");
   let windDirection = "";
-  document.querySelector(".resultado").style.display = "block";
   document.querySelector(".titulo").innerHTML = `${json.name}, ${json.country}`;
   document.querySelector(".tempInfo").innerHTML = `${json.temp} <sup>ºC</sup>`;
   document.querySelector(".tempDesc").innerHTML = `${json.tempDesc}`;
@@ -21,7 +20,6 @@ function showInfo(json) {
   document.querySelector(".ventoPonto").style.transform = `rotate(${
     json.windAngle - 90
   }deg)`;
-
   if (json.windAngle > -30 && json.windAngle < 30) {
     windDirection = "norte";
   } else if (json.windAngle > 30 && json.windAngle <= 120) {
@@ -34,6 +32,7 @@ function showInfo(json) {
     windDirection = "norte";
   }
   document.querySelector(".ventoDesc").innerHTML = windDirection;
+  document.querySelector(".resultado").style.display = "block";
 }
 
 function clearInfo() {
