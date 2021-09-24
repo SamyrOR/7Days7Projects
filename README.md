@@ -14,7 +14,7 @@
 	<img  alt="GitHub last commit"  src="https://img.shields.io/github/last-commit/SamyrOR/7Days7Projects">
 </p>
 <h4 align="center">
-	🚧 Under construction 🚧
+	🚧 Done 🚀🚧
 </h4>
 
 # Table of contents
@@ -47,7 +47,9 @@ Personally i added some new features to challenge myself.
   - [x] Loops
   - [x] Events
   - [x] Functions
+  - [x] Date manipulation
   - [x] API consuming
+  - [x] Drag and drop events
 - [x] Challenges
   - [x] Keyboard Drums
     - [x] Edit time interval
@@ -57,7 +59,7 @@ Personally i added some new features to challenge myself.
   - [x] Tic tac toe game
   - [x] Drawing Canvas
   - [x] Quiz
-  - [ ] Drag and drop
+  - [x] Drag and drop
 
 ---
 
